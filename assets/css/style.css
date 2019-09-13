@@ -1991,7 +1991,7 @@ a:active.learn-btn{
 	color:#908edf;
 	border:1px solid #908edf;
 }
-/*-blog button-*/\
+/*-blog button-*/
 
 /*pagination*/
 .pagination-part {
@@ -2233,6 +2233,70 @@ a:active.learn-btn{
 /*comment-content*/
 
 /*.comments-area */
+/*search*/
+.search-area-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.select-fields-wrapper {
+    padding: 15px 0 45px;
+}
+
+.select-field {
+    border: none;
+    height: 65px;
+    width: 100%;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline: none;
+    text-indent: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 25px;
+
+    background: url('assets/img/dropdown_arrow.png') no-repeat;
+    background-position: 95% 50%;
+    background-size: 20px;
+    background-color: #FAFAFA;
+}
+
+.select-field-header {
+    font-weight: 300;
+    padding: 35px 0 8px;
+    display: block;
+    font-size: 15px;
+}
+
+.action-button {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    -webkit-appearance: none;
+    border: none;
+    background-color: #0054d5;
+    color: white;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.action-button:hover {
+    background-color: #01B0F0;
+}
+
+.action-button.apply {
+    margin: 50px auto;
+}
+
+.search-results-wrapper {
+    min-height: 75px;
+}
 
 /*===============================
     Scroll Top

@@ -2,8 +2,8 @@ $(document).ready(function(){
 	"use strict";
     
         /*==================================
-* Author        : "ThemeSINE"
-* Template Name : Zombiz HTML Template
+* Author        : "Ashish"
+* Template Name : Paychex HTML Template
 * Version       : 1.0
 ==================================== */
 
@@ -15,7 +15,8 @@ $(document).ready(function(){
 2. hcsticky 
 3. Counter
 4. owl carousel
-5. vedio player
+5. video player
+8. PageLoad
 ======================================*/
 
     // 1. Scroll To Top 
@@ -159,7 +160,7 @@ $(document).ready(function(){
         });
 
     
-    // 6. Smooth Scroll spy
+    // 7. Smooth Scroll spy
         
         // $('.header-area').sticky({
         //    topSpacing:0
@@ -180,5 +181,18 @@ $(document).ready(function(){
             offset:0
         });
 		
+	// 8. HTML page load
+	newFunction();
 });	
+
+
+function newFunction() {
+	$(function () {
+		var includes = $('[data-include]');
+		jQuery.each(includes, function () {
+			var file = $(this).data('include') + '.html';
+			$(this).load(file);
+		});
+	});
+}
 	
