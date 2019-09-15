@@ -2233,6 +2233,56 @@ a:active.learn-btn{
 /*comment-content*/
 
 /*.comments-area */
+/* Content Breaks */
+/*======================Career======================*/
+
+body, .main-page-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1, .career-text {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding: 25px 15px;
+}
+
+.content-area-wrapper {
+    padding: 0 0 100px 0;
+}
+
+.content-area-wrapper.first {
+    padding: 0 0 50px 0;
+}
+
+.content-area-wrapper.third {
+    text-align: center;
+}
+
+.content-area-wrapper.no-pad {
+    padding: 0;
+}
+
+.content-area-wrapper.job {
+    padding: 0 10px 50px 10px;
+}
+
+.section-break-diamond img {
+    width: 55px;
+    height: 19px;
+    margin: 0 auto;
+    display: block;
+    padding: 45px 0 20px;
+    -webkit-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+.section-break-diamond img:hover {
+    transform: rotate(360deg);
+}
+
 /*search*/
 .search-area-wrapper {
     max-width: 800px;
@@ -2250,12 +2300,11 @@ a:active.learn-btn{
     border-radius: 0;
     -webkit-appearance: none;
     outline: none;
-    text-indent: 18px;
-    font-size: 20px;
+    text-indent: 15px;
+    font-size: 15px;
     font-weight: 400;
     margin: 0 0 25px;
-
-    background: url('assets/img/dropdown_arrow.png') no-repeat;
+	background: url(../../assets/img/dropdown_arrow.png)no-repeat;
     background-position: 95% 50%;
     background-size: 20px;
     background-color: #FAFAFA;
@@ -2296,6 +2345,23 @@ a:active.learn-btn{
 
 .search-results-wrapper {
     min-height: 75px;
+}
+
+.show-grid{
+	border: outset;
+    height: 3em;
+	padding-top: 12px;
+}
+
+.job-type{
+	text-align: center;
+    background-color: green;
+    width: 15em;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+	font: 700 12px/normal Montserrat,sans-serif;
+	padding: 2px 10px;
 }
 
 /*===============================
