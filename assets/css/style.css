@@ -657,8 +657,26 @@ html,body{
 	background: #f9faff;
 	padding: 120px 0 175px;
 }
+.about-us-txt .content
+{
+	margin-bottom: 79px;
+}
+
+.row .col-sm-6
+{
+	/* height:554px; */
+}
+.about-us .container 
+{
+	width:85%;
+}
 .about-us-txt{
-	margin-top: 103px;
+	margin-top: 0px;
+}
+.about-us-img iframe
+{
+	box-shadow: 1px -1px 32px 1px silver;
+	width:100%;
 }
 .about-us h2 {
 	color:#4d4e54;	
@@ -670,21 +688,22 @@ html,body{
 	color:#888;	
 	font-size:16px;
 	font-family: 'Poppins', sans-serif;
-	line-height: 1.7;
-	max-width: 501px;
-    margin-top: 28px;
+	line-height: 1.8;
+	max-width: 694;
+    margin-top: 10px;
     margin-bottom: -18px;
 }
 .about-us-img  {
 	position: relative;
 	box-shadow: 0 10px 30px rgba(112,134,230,.2);
 	z-index: 1;
+	width:100%;
 }
 .about-us-img:before{
 	position: absolute;
 	content: " ";
-	top:55px;
-	left:-23px;
+	/* top:55px; */
+	/* left:-23px; */
 	border: 3px solid #ebecfb;
 	width: 100%;
 	height: 100%;
@@ -718,7 +737,10 @@ html,body{
 	-moz-transition:.5s; 
 	-ms-transition:.5s; 
 	-o-transition:.5s;
-    transition: .5s;
+	transition: .5s;
+	box-shadow: 0px 1px 3px 1px #9bb2da;
+	width: 100%;
+	height: 100%;;
 }
 .service-txt h2 a{
 	color:#44454f;	
@@ -736,17 +758,23 @@ a.service-btn,
 a:active.service-btn,
 a:hover.service-btn,
 a:focus.service-btn{
-	color: #7370d8;
+	color: #3131ef;
     font-size:16px;
 	font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
-    margin-top:12px;
+    margin-top:50px;
     margin-bottom: 15px;
 }/*.service-txt*/
+.service-btn svg
+{
+	margin-left:5px;
+}
 
 .service-single:hover{
-	box-shadow:0 5px 20px rgba(112,134,230,.2);
+	box-shadow: 0px 1px 25px 1px #264b8d;
 	opacity: 1;
+	width: 100%;
+	height:100%;
 }
 
 /*-------------------------------------
@@ -762,11 +790,12 @@ a:focus.service-btn{
 .statistics:before{
 	position:absolute;
 	content:'';
-	background: rgba(115,112,216,.8);
+	background: #264b8d;
 	height:100%;
 	width:100%;
 	top:0;
 	left:0;
+	opacity: 0.7;		  
 }
 /* single-ststistics-box */
 .single-ststistics-box {
@@ -790,6 +819,10 @@ a:focus.service-btn{
 	font-family: 'Poppins', sans-serif;
 	margin-top: 9px;
 	line-height: 1.5;
+}
+.statistics-item-container
+{
+	width:33%;
 }
 
 /*-------------------------------------
@@ -960,6 +993,12 @@ a:focus.service-btn{
 	width:100%;
 	height:auto;
 }
+.col-xs-12-products
+{
+	width:350px;
+	height:400px;
+	margin:20px;
+}									  
 .team-card{
 	padding: 75px 0 0 0;
 }
