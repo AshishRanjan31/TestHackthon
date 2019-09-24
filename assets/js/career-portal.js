@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#jobSearchSubmit").click(function() {
-      alert("Hello, world!");
+      $('.show-grid').remove()
       var dept = $( "#jobSearch option:selected" ).text();
       var jobLocation = $( "#locationSearch option:selected" ).text();
       var jobtype = $( "#jobTypeSearch option:selected" ).text();
