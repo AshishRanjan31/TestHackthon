@@ -1023,16 +1023,20 @@ a:focus.service-btn{
 /*team-box-bg*/
 
 .team-box-bg-1{
-	background: url(../../assets/images/team/team.jpg) no-repeat;
+	background: url(../../assets/images/team/ceo.png) no-repeat;
+	height: 300px;
 }
 .team-box-bg-2{
-	background: url(../../assets/images/team/team3.jpg) no-repeat;
+	background: url(../../assets/images/team/pdit.png) no-repeat;
+	height: 300px;
 }
 .team-box-bg-3{
-	background: url(../../assets/images/team/team2.jpg) no-repeat;
+	background: url(../../assets/images/team/erp.png) no-repeat;
+	height: 300px;
 }
 .team-box-bg-4{
-	background: url(../../assets/images/team/team3.jpg) no-repeat;
+	background: url(../../assets/images/team/op.png) no-repeat;
+	height: 300px;
 }/*team-box-bg*/
 
 
