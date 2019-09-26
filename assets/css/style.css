@@ -2392,8 +2392,11 @@ h1, .career-text {
 
 .show-grid{
 	border: outset;
-    height: 3em;
-	padding-top: 12px;
+	height: 3em;
+	
+}
+.container-cell {
+	padding-top:9px;
 }
 
 .job-type{
@@ -2404,7 +2407,9 @@ h1, .career-text {
 	color: white;
 	text-transform: uppercase;
 	font: 700 12px/normal Montserrat,sans-serif;
-	padding: 2px 10px;
+	padding: 5px 10px;
+	margin-top:5px;
+	height: 24px;
 }
 
 /*===============================
